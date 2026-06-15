@@ -16,12 +16,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-     # - name: Checkout other private repo
-     #   uses: actions/checkout@v4
-     #   with:
-     #     repository: terxz2/epg-channel-filter
-     #     token: ${{ secrets.OTHER_REPO_TOKEN }}
-     #     path: epg-channel-filter
+      - name: Checkout other private repo
+        uses: actions/checkout@v4
+        with:
+          repository: terxz2/epg-channel-filter
+          token: ${{ secrets.OTHER_REPO_TOKEN }}
+          path: epg-channel-filter
 
 
       - name: Set up Python
