@@ -4,5 +4,3 @@ files:
   # in realtà IT 👇
    - https://raw.githubusercontent.com/terxz2/Rakuten-DACH-EPG/refs/heads/master/Rakuten_DE_epg.xml
    - https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz
-  #- epg-channel-filter/output/epg-guide.xml
-  #- epg-channel-filter/output/epgshare01.xml
